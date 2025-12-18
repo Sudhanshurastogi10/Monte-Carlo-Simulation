@@ -122,7 +122,7 @@ EMV(Mitigate) = (0.1 × $6,935) + (0.9 × $1,000) = $1,593.50
 EMV(Transfer) = (0.3 × $1,687) + (0.7 × $1,500) = $1,556.10
 **Decision:** Transfer is selected as it has the lowest expected cost (EMV).
 
-### 3. Expected Opportunity Loss (EOL) / Expected Regret
+#### 3. Expected Opportunity Loss (EOL) / Expected Regret
 - **Concept:** Measures the expected regret associated with each decision. The action with the minimum EOL corresponds to the action with the optimal EMV.
 - **In Project:** EOL values calculated using the regret matrix and probabilities:
 
@@ -132,7 +132,7 @@ EOL(Mitigate) = (0.3 × $5,248) + (0.7 × $1,000) = $2,274.40
 EOL(Transfer) = (0.3 × $0)     + (0.7 × $1,500) = $1,050.00
 **Decision:** Transfer again yields the lowest EOL.
 
-### 4. EPPI & EVPI (Value of Information)
+#### 4. EPPI & EVPI (Value of Information)
 
 - **EPPI (Expected Payoff under Perfect Information):** Represents the expected outcome if future states were known with certainty before making a decision.
 - **In Project:**
