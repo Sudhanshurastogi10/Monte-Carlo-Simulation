@@ -86,8 +86,6 @@ This is **not a conceptual study**; it is an **applied quantitative decision-sup
 
 ---
 Decision Making under Risk:
-## Decision Analysis Concepts Applied in Project
-
 ### Course of Action (Acts)
 - How risks are handled in the construction project
 - Explored through the **Decision Tree**
