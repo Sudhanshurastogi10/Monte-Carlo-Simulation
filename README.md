@@ -121,7 +121,7 @@ EMV(Mitigate) = (0.1 × $6,935) + (0.9 × $1,000) = $1,593.50
 EMV(Transfer) = (0.3 × $1,687) + (0.7 × $1,500) = $1,556.10
 **Decision:** Transfer is selected as it has the lowest expected cost (EMV).
 
-#### 3. Expected Opportunity Loss (EOL) / Expected Regret**
+#### 3. Expected Opportunity Loss (EOL) / Expected Regret
 - **Concept:** Measures the expected regret associated with each decision. The action with the minimum EOL corresponds to the action with the optimal EMV.
 - **In Project:** EOL values calculated using the regret matrix and probabilities:
 
@@ -143,3 +143,6 @@ EPPI = (0.3 × $1,687) + (0.7 × $0) = $506.10
 EVPI = EPPI − Best EMV
 EVPI = $506.10 − $1,556.10 = −$1,050.00
 Correct Interpretation: Since this is a cost-minimization problem, the EVPI equals the minimum EOL. Therefore, the value of perfect information is $1,050, representing the expected savings from never making a wrong decision.
+
+---
+The Monte Carlo simulation told us what would go wrong. The Decision Tree tells us what to do about it. 
